@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Чтение — Наруто: Второй шанс</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #050506;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 13px 16px;
+
+    background: rgba(10,10,12,0.94);
+    backdrop-filter: blur(10px);
+
+    border-bottom: 1px solid #29292e;
+}
+
+.back {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.reader {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.page {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.bottom {
+    text-align: center;
+    padding: 35px 20px 60px;
+    background: #0b0b0d;
+}
+
+.bottom h2 {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 13px 18px;
+
+    border-radius: 10px;
+
+    background: #19191d;
+    border: 1px solid #303035;
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #25252b;
+}
+
+.comment-box {
+    max-width: 600px;
+    margin: 30px auto 0;
+    padding: 20px;
+
+    background: #151518;
+    border: 1px solid #29292e;
+    border-radius: 14px;
+}
+
+.comment-box p {
+    color: #999;
+    font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+
+    <a class="back" href="index.html">
+        ← Главы
+    </a>
+
+    <div class="title">
+        НАРУТО: ВТОРОЙ ШАНС
+    </div>
+
+</div>
+
+
+<main class="reader">
+
+    <!-- СЮДА БУДУТ СТРАНИЦЫ МАНГИ -->
+
+    <img class="page" src="chapters/chapter-1/001.jpg" alt="Страница 1">
+
+    <img class="page" src="chapters/chapter-1/002.jpg" alt="Страница 2">
+
+    <img class="page" src="chapters/chapter-1/003.jpg" alt="Страница 3">
+
+    <img class="page" src="chapters/chapter-1/004.jpg" alt="Страница 4">
+
+</main>
+
+
+<section class="bottom">
+
+    <h2>Глава 1 завершена</h2>
+
+    <div class="buttons">
+
+        <a class="button" href="index.html">
+            ← Все главы
+        </a>
+
+        <a class="button" href="#">
+            Следующая глава →
+        </a>
+
+    </div>
+
+
+    <div class="comment-box">
+
+        <h3>💬 Обсуждение</h3>
+
+        <p>
+            Здесь появятся комментарии читателей.
+        </p>
+
+    </div>
+
+</section>
+
+</body>
+</html>
